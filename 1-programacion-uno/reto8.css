@@ -1,0 +1,11 @@
+.button1, .button2{
+    padding: 5%;
+    border: 1px solid aqua;
+    color: palevioletred;
+    background-color: papayawhip;
+    
+}
+
+.opacity{
+    opacity: 0.5;
+}
