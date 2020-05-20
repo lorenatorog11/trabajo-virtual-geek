@@ -36,3 +36,19 @@ const listElement = document.querySelector('.list');
 const content = '<li><a href="#">Home</a></li><li><a href="#">Contact</a></li>';
 
 listElement.innerHTML = content;
+
+
+// const secretLetter = 'y';
+// function mySecretLetter() {
+//   return secretLetter;
+// }
+// console.log( mySecretLetter() ); // devuelve "y"
+// console.log( secretLetter ); // devuelve "y"
+
+let secretLetter = 'y';
+function mySecretLetter() {
+  secretLetter = 'x';
+  return secretLetter;
+}
+console.log( mySecretLetter() ); // devuelve "x"
+console.log( secretLetter ); // devuelve "x"
