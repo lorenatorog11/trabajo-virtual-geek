@@ -1,0 +1,45 @@
+body{
+    background-color: #ffcc00;
+}
+.orange{
+    background-color: #ff9900;
+}
+
+#smile{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+#section{
+    display: flex;
+    position: absolute;
+    left: 45%;
+    top: 65%;
+    font-size: 50px;
+    width: 10px;
+    margin-top: 10px;
+}
+#aleatorio{
+    display: flex;
+    position: absolute;
+    left: 47%;
+    top: 58%;
+    font-size: 50px;
+    width: 10px;
+    font-size: 40px;
+    margin-top: 10px;
+
+}
+#section select {
+    width: 50px;
+    margin: 20%;
+    height: 25px;
+}
+#submit{
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+}
