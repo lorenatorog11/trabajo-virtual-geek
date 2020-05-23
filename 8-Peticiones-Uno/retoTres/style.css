@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.p{
+    font-weight: bolder;
+}
