@@ -1,0 +1,6 @@
+#section{
+    background-color: blanchedalmond;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+}

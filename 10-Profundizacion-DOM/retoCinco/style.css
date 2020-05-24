@@ -1,0 +1,9 @@
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    text-align: center;
+}
